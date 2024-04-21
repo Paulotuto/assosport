@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'Sansation';
+    src: url('./fonts/Sansation_Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Nunito';
+    src: url('./fonts/NunitoSans_7pt-Regular.ttf');
+}
+
+
+.font-sansation {
+    font-family: 'Sansation';
+    font-weight: 500;
+}
+.font-nunito {
+    font-family: 'Nunito';
+    font-weight: 500;
+}
